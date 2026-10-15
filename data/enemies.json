@@ -1,0 +1,375 @@
+{
+    "Wild Wolf": {
+        "description": "A lean gray wolf that hunts at the forest's edge.",
+        "regions": ["Lindmark"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 12,
+        "attack": 4,
+        "defense": 0,
+        "resistance": 0,
+        "speed": 5,
+        "xp": 5,
+        "gilden": 3,
+        "loot": [
+            {"item": "Wolf Pelt", "chance": 0.5}
+        ]
+    },
+    "Thornback Boar": {
+        "description": "A bad-tempered boar with thorny bristles down its spine.",
+        "regions": ["Lindmark"],
+        "location": null,
+        "boss": false,
+        "weight": 3,
+        "hp": 18,
+        "attack": 5,
+        "defense": 1,
+        "resistance": 0,
+        "speed": 2,
+        "xp": 8,
+        "gilden": 4,
+        "loot": [
+            {"item": "Boar Hide", "chance": 0.5},
+            {"item": "Healing Herb", "chance": 0.3}
+        ]
+    },
+    "Rusted Sentinel": {
+        "description": "An empty suit of armor left to guard the watchtower long after its owner died.",
+        "regions": ["Lindmark"],
+        "location": "Brannoc's Watch",
+        "boss": true,
+        "weight": 0,
+        "hp": 45,
+        "attack": 7,
+        "defense": 3,
+        "resistance": 1,
+        "speed": 1,
+        "xp": 30,
+        "gilden": 25,
+        "loot": [
+            {"item": "Sentinel Core", "chance": 1.0},
+            {"item": "Iron Sword", "chance": 0.25}
+        ]
+    },
+
+    "River Bandit": {
+        "description": "A thief who robs travelers waiting for the ferry.",
+        "regions": ["Elsmere"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 25,
+        "attack": 7,
+        "defense": 2,
+        "resistance": 1,
+        "speed": 6,
+        "xp": 12,
+        "gilden": 10,
+        "loot": [
+            {"item": "Minor Potion", "chance": 0.3},
+            {"item": "Leather Armor", "chance": 0.1}
+        ]
+    },
+    "Fen Lurker": {
+        "description": "A slimy creature that waits beneath the marsh water.",
+        "regions": ["Elsmere"],
+        "location": null,
+        "boss": false,
+        "weight": 4,
+        "hp": 30,
+        "attack": 8,
+        "defense": 2,
+        "resistance": 2,
+        "speed": 3,
+        "xp": 14,
+        "gilden": 6,
+        "loot": [
+            {"item": "Fen Moss", "chance": 0.5}
+        ]
+    },
+    "Bog Hag": {
+        "description": "An old witch who lures travelers deeper into the Reedfens.",
+        "regions": ["Elsmere"],
+        "location": "The Reedfens",
+        "boss": true,
+        "weight": 0,
+        "hp": 70,
+        "attack": 11,
+        "defense": 4,
+        "resistance": 8,
+        "speed": 4,
+        "xp": 60,
+        "gilden": 50,
+        "loot": [
+            {"item": "Fen Moss", "chance": 1.0},
+            {"item": "Potion", "chance": 0.5}
+        ]
+    },
+
+    "Rogue Apprentice": {
+        "description": "A young mage expelled from Calvaren who now sells spells to the highest bidder.",
+        "regions": ["Calvaren"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 32,
+        "attack": 11,
+        "defense": 2,
+        "resistance": 6,
+        "speed": 7,
+        "xp": 20,
+        "gilden": 15,
+        "loot": [
+            {"item": "Minor Potion", "chance": 0.3},
+            {"item": "Oak Staff", "chance": 0.1}
+        ]
+    },
+    "Animated Tome": {
+        "description": "A spellbook that came to life and bites anyone who opens it.",
+        "regions": ["Calvaren"],
+        "location": null,
+        "boss": false,
+        "weight": 3,
+        "hp": 28,
+        "attack": 10,
+        "defense": 4,
+        "resistance": 8,
+        "speed": 9,
+        "xp": 18,
+        "gilden": 5,
+        "loot": [
+            {"item": "Torn Page", "chance": 0.6}
+        ]
+    },
+    "Fallen Astromancer": {
+        "description": "A mage who stared at the stars too long and heard something answer.",
+        "regions": ["Calvaren"],
+        "location": "The Starfall Observatory",
+        "boss": true,
+        "weight": 0,
+        "hp": 95,
+        "attack": 14,
+        "defense": 5,
+        "resistance": 10,
+        "speed": 8,
+        "xp": 100,
+        "gilden": 80,
+        "loot": [
+            {"item": "Star Shard", "chance": 1.0},
+            {"item": "Mage's Staff", "chance": 0.3}
+        ]
+    },
+
+    "Restless Soldier": {
+        "description": "A soldier from the old war against the demons who never stopped fighting.",
+        "regions": ["The Dunmoor"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 45,
+        "attack": 13,
+        "defense": 6,
+        "resistance": 3,
+        "speed": 6,
+        "xp": 28,
+        "gilden": 12,
+        "loot": [
+            {"item": "Grave Dust", "chance": 0.4},
+            {"item": "Chainmail", "chance": 0.05}
+        ]
+    },
+    "Moor Hound": {
+        "description": "A black hound with glowing eyes that runs across the moor at night.",
+        "regions": ["The Dunmoor"],
+        "location": null,
+        "boss": false,
+        "weight": 4,
+        "hp": 40,
+        "attack": 14,
+        "defense": 3,
+        "resistance": 3,
+        "speed": 14,
+        "xp": 26,
+        "gilden": 6,
+        "loot": [
+            {"item": "Hound Fang", "chance": 0.5}
+        ]
+    },
+    "Barrow Wight": {
+        "description": "An ancient king's spirit, angry that the living keep walking over his grave.",
+        "regions": ["The Dunmoor"],
+        "location": "The Barrow Fields",
+        "boss": true,
+        "weight": 0,
+        "hp": 130,
+        "attack": 18,
+        "defense": 7,
+        "resistance": 4,
+        "speed": 7,
+        "xp": 150,
+        "gilden": 110,
+        "loot": [
+            {"item": "Grave Dust", "chance": 1.0},
+            {"item": "Greater Potion", "chance": 0.3}
+        ]
+    },
+
+    "Ridge Harpy": {
+        "description": "A shrieking harpy that dives at travelers on narrow trails.",
+        "regions": ["Vael Ridge"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 50,
+        "attack": 17,
+        "defense": 5,
+        "resistance": 5,
+        "speed": 18,
+        "xp": 36,
+        "gilden": 14,
+        "loot": [
+            {"item": "Harpy Feather", "chance": 0.5}
+        ]
+    },
+    "Cave Troll": {
+        "description": "A huge troll that wandered into the dwarves' tunnels and refuses to leave.",
+        "regions": ["Vael Ridge"],
+        "location": null,
+        "boss": false,
+        "weight": 3,
+        "hp": 75,
+        "attack": 19,
+        "defense": 8,
+        "resistance": 2,
+        "speed": 4,
+        "xp": 45,
+        "gilden": 20,
+        "loot": [
+            {"item": "Troll Hide", "chance": 0.5},
+            {"item": "Potion", "chance": 0.2}
+        ]
+    },
+    "Ridge Wyvern": {
+        "description": "A wyvern that nests on the summit and guards the road north.",
+        "regions": ["Vael Ridge"],
+        "location": "The Summit of Vael",
+        "boss": true,
+        "weight": 0,
+        "hp": 170,
+        "attack": 23,
+        "defense": 9,
+        "resistance": 12,
+        "speed": 15,
+        "xp": 220,
+        "gilden": 150,
+        "loot": [
+            {"item": "Wyvern Scale", "chance": 1.0},
+            {"item": "Dwarven Axe", "chance": 0.2}
+        ]
+    },
+
+    "Frost Wolf": {
+        "description": "A white wolf that hunts in packs across the snowfields.",
+        "regions": ["The Pale Reach"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 65,
+        "attack": 21,
+        "defense": 7,
+        "resistance": 5,
+        "speed": 20,
+        "xp": 50,
+        "gilden": 10,
+        "loot": [
+            {"item": "Wolf Pelt", "chance": 0.6}
+        ]
+    },
+    "Ice Wraith": {
+        "description": "The frozen ghost of someone who once lived in Ysra.",
+        "regions": ["The Pale Reach"],
+        "location": null,
+        "boss": false,
+        "weight": 4,
+        "hp": 60,
+        "attack": 24,
+        "defense": 6,
+        "resistance": 3,
+        "speed": 16,
+        "xp": 55,
+        "gilden": 18,
+        "loot": [
+            {"item": "Frost Crystal", "chance": 0.5}
+        ]
+    },
+    "Rime Colossus": {
+        "description": "A giant of living ice that rises out of the glacier.",
+        "regions": ["The Pale Reach"],
+        "location": "The Whitefall Glacier",
+        "boss": true,
+        "weight": 0,
+        "hp": 220,
+        "attack": 27,
+        "defense": 12,
+        "resistance": 6,
+        "speed": 5,
+        "xp": 300,
+        "gilden": 200,
+        "loot": [
+            {"item": "Frost Crystal", "chance": 1.0},
+            {"item": "Frostbrand", "chance": 0.5}
+        ]
+    },
+
+    "Demon Sentry": {
+        "description": "A horned demon in black armor that guards the Hollow King's lands.",
+        "regions": ["Nocthollow"],
+        "location": null,
+        "boss": false,
+        "weight": 5,
+        "hp": 90,
+        "attack": 27,
+        "defense": 11,
+        "resistance": 8,
+        "speed": 18,
+        "xp": 75,
+        "gilden": 30,
+        "loot": [
+            {"item": "Demon Horn", "chance": 0.4},
+            {"item": "Greater Potion", "chance": 0.2}
+        ]
+    },
+    "Ash Wraith": {
+        "description": "A shape made of drifting ash that moves without a sound.",
+        "regions": ["Nocthollow"],
+        "location": null,
+        "boss": false,
+        "weight": 4,
+        "hp": 80,
+        "attack": 30,
+        "defense": 9,
+        "resistance": 5,
+        "speed": 24,
+        "xp": 80,
+        "gilden": 25,
+        "loot": [
+            {"item": "Ash Ember", "chance": 0.5}
+        ]
+    },
+    "The Hollow King": {
+        "description": "The demon lord himself. He has been waiting on his throne for a very long time.",
+        "regions": ["Nocthollow"],
+        "location": "The Throne of the Hollow King",
+        "boss": true,
+        "weight": 0,
+        "hp": 400,
+        "attack": 34,
+        "defense": 14,
+        "resistance": 14,
+        "speed": 22,
+        "xp": 0,
+        "gilden": 0,
+        "loot": []
+    }
+}

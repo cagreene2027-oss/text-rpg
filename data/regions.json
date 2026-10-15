@@ -1,0 +1,142 @@
+{
+    "Lindmark": {
+        "Hollin": {
+            "type": "town",
+            "description": "You are in Hollin, your home village. Smoke drifts from the old mill.",
+            "neighbors": ["The Linden Wood"],
+            "coordinates": 0
+        },
+        "The Linden Wood": {
+            "type": "wild",
+            "description": "You are in the Linden Wood, a dense forest with towering trees.",
+            "neighbors": ["Hollin", "Brannoc's Watch"],
+            "coordinates": 10
+        },
+        "Brannoc's Watch": {
+            "type": "wild",
+            "description": "You are at Brannoc's Watch, a watchtower overlooking the forest.",
+            "neighbors": ["The Linden Wood", "Ferrow Crossing"],
+            "coordinates": 20
+        }
+    },
+    "Elsmere": {
+        "Ferrow Crossing": {
+            "type": "wild",
+            "description": "You are at Ferrow Crossing, where an old ferryman poles travelers across a wide, slow river.",
+            "neighbors": ["Brannoc's Watch", "Elsmere Town"],
+            "coordinates": 100
+        },
+        "Elsmere Town": {
+            "type": "town",
+            "description": "You are in Elsmere Town, a busy market town full of merchants and wandering adventurers.",
+            "neighbors": ["Ferrow Crossing", "The Reedfens"],
+            "coordinates": 110
+        },
+        "The Reedfens": {
+            "type": "wild",
+            "description": "You are in the Reedfens, a misty marsh where the ground squelches with every step.",
+            "neighbors": ["Elsmere Town", "Calvaren Gate"],
+            "coordinates": 125
+        }
+    },
+    "Calvaren": {
+        "Calvaren Gate": {
+            "type": "town",
+            "description": "You are at the gate of Calvaren, a city of mages. The guards eye every traveler carrying a staff.",
+            "neighbors": ["The Reedfens", "The Athenaeum"],
+            "coordinates": 210
+        },
+        "The Athenaeum": {
+            "type": "wild",
+            "description": "You are in the Athenaeum, a great library where scholars study spells older than the kingdom.",
+            "neighbors": ["Calvaren Gate", "The Starfall Observatory"],
+            "coordinates": 220
+        },
+        "The Starfall Observatory": {
+            "type": "wild",
+            "description": "You are at the Starfall Observatory, a tower where mages watch the stars for signs of coming danger.",
+            "neighbors": ["The Athenaeum", "Greystone Ruins"],
+            "coordinates": 230
+        }
+    },
+    "The Dunmoor": {
+        "Greystone Ruins": {
+            "type": "wild",
+            "description": "You are in the Greystone Ruins, the broken remains of a fortress lost in an old war against the demons.",
+            "neighbors": ["The Starfall Observatory", "Moorhold Inn"],
+            "coordinates": 340
+        },
+        "Moorhold Inn": {
+            "type": "town",
+            "description": "You are at Moorhold Inn, a lonely inn on the windswept moor. A fire crackles inside.",
+            "neighbors": ["Greystone Ruins", "The Barrow Fields"],
+            "coordinates": 350
+        },
+        "The Barrow Fields": {
+            "type": "wild",
+            "description": "You are in the Barrow Fields, where grassy burial mounds stretch as far as you can see.",
+            "neighbors": ["Moorhold Inn", "Kettle Pass"],
+            "coordinates": 365
+        }
+    },
+    "Vael Ridge": {
+        "Kettle Pass": {
+            "type": "wild",
+            "description": "You are at Kettle Pass, a narrow mountain trail where loose stones clatter down the cliffs.",
+            "neighbors": ["The Barrow Fields", "Harrowdeep"],
+            "coordinates": 450
+        },
+        "Harrowdeep": {
+            "type": "town",
+            "description": "You are in Harrowdeep, a dwarven hall carved deep into the mountain.",
+            "neighbors": ["Kettle Pass", "The Summit of Vael"],
+            "coordinates": 465
+        },
+        "The Summit of Vael": {
+            "type": "wild",
+            "description": "You are at the Summit of Vael. Far to the north, the land turns white with snow.",
+            "neighbors": ["Harrowdeep", "Frostmere Outpost"],
+            "coordinates": 480
+        }
+    },
+    "The Pale Reach": {
+        "Frostmere Outpost": {
+            "type": "town",
+            "description": "You are at Frostmere Outpost, the last manned fort before the frozen wastes.",
+            "neighbors": ["The Summit of Vael", "Ysra"],
+            "coordinates": 600
+        },
+        "Ysra": {
+            "type": "wild",
+            "description": "You are in Ysra, a silent village buried in snow. No one has lived here for years.",
+            "neighbors": ["Frostmere Outpost", "The Whitefall Glacier"],
+            "coordinates": 615
+        },
+        "The Whitefall Glacier": {
+            "type": "wild",
+            "description": "You are on the Whitefall Glacier, a vast sheet of ice that groans beneath your feet.",
+            "neighbors": ["Ysra", "The Blackened Gate"],
+            "coordinates": 635
+        }
+    },
+    "Nocthollow": {
+        "The Blackened Gate": {
+            "type": "wild",
+            "description": "You are at the Blackened Gate, the entrance to the demon lord's domain. The air feels heavy and wrong.",
+            "neighbors": ["The Whitefall Glacier", "The Hall of Ash"],
+            "coordinates": 760
+        },
+        "The Hall of Ash": {
+            "type": "wild",
+            "description": "You are in the Hall of Ash, a ruined hall where gray ash falls like snow.",
+            "neighbors": ["The Blackened Gate", "The Throne of the Hollow King"],
+            "coordinates": 770
+        },
+        "The Throne of the Hollow King": {
+            "type": "wild",
+            "description": "You stand before the Throne of the Hollow King. Whatever waits here has been waiting a long time.",
+            "neighbors": ["The Hall of Ash"],
+            "coordinates": 780
+        }
+    }
+}

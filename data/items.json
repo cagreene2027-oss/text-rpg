@@ -1,0 +1,208 @@
+{
+    "Rusty Sword": {
+        "type": "weapon",
+        "description": "An old sword with a chipped blade. Better than nothing.",
+        "price": 15,
+        "shops": ["Hollin"],
+        "attack": 2
+    },
+    "Oak Staff": {
+        "type": "weapon",
+        "description": "A plain wooden staff, good for a beginner mage.",
+        "price": 25,
+        "shops": ["Hollin"],
+        "magic": 3
+    },
+    "Iron Sword": {
+        "type": "weapon",
+        "description": "A sturdy sword made by a real blacksmith.",
+        "price": 60,
+        "shops": ["Elsmere Town"],
+        "attack": 5
+    },
+    "Mage's Staff": {
+        "type": "weapon",
+        "description": "A staff carved with runes that hum when you cast a spell.",
+        "price": 160,
+        "shops": ["The Athenaeum"],
+        "magic": 8
+    },
+    "Starsteel Blade": {
+        "type": "weapon",
+        "description": "A blade forged from metal that fell from the sky.",
+        "price": 180,
+        "shops": ["Calvaren Gate"],
+        "attack": 9
+    },
+    "Dwarven Axe": {
+        "type": "weapon",
+        "description": "A heavy axe made in Harrowdeep. It never seems to dull.",
+        "price": 400,
+        "shops": ["Harrowdeep"],
+        "attack": 13
+    },
+    "Frostbrand": {
+        "type": "weapon",
+        "description": "A sword of ice that never melts, taken from the heart of the Rime Colossus.",
+        "price": 900,
+        "shops": [],
+        "attack": 17
+    },
+
+    "Padded Tunic": {
+        "type": "armor",
+        "description": "Thick cloth stitched in layers. It softens a blow, a little.",
+        "price": 12,
+        "shops": ["Hollin"],
+        "defense": 1
+    },
+    "Leather Armor": {
+        "type": "armor",
+        "description": "Tough leather armor favored by travelers.",
+        "price": 45,
+        "shops": ["Elsmere Town"],
+        "defense": 3
+    },
+    "Chainmail": {
+        "type": "armor",
+        "description": "Linked iron rings that turn aside blades.",
+        "price": 170,
+        "shops": ["Calvaren Gate"],
+        "defense": 6
+    },
+    "Furlined Cloak": {
+        "type": "armor",
+        "description": "A heavy cloak lined with wolf fur, made for the frozen north.",
+        "price": 300,
+        "shops": ["Frostmere Outpost"],
+        "defense": 8
+    },
+    "Dwarven Plate": {
+        "type": "armor",
+        "description": "Full plate armor hammered out by dwarven smiths.",
+        "price": 450,
+        "shops": ["Harrowdeep"],
+        "defense": 10
+    },
+
+    "Healing Herb": {
+        "type": "consumable",
+        "description": "A bitter leaf that closes small wounds.",
+        "price": 5,
+        "shops": ["Hollin"],
+        "heal": 10
+    },
+    "Minor Potion": {
+        "type": "consumable",
+        "description": "A small red potion that restores some health.",
+        "price": 20,
+        "shops": ["Hollin", "Elsmere Town"],
+        "heal": 25
+    },
+    "Hearty Stew": {
+        "type": "consumable",
+        "description": "A hot bowl of stew from Moorhold Inn.",
+        "price": 12,
+        "shops": ["Moorhold Inn"],
+        "heal": 30
+    },
+    "Potion": {
+        "type": "consumable",
+        "description": "A red potion that restores a good amount of health.",
+        "price": 60,
+        "shops": ["Calvaren Gate", "Moorhold Inn"],
+        "heal": 50
+    },
+    "Greater Potion": {
+        "type": "consumable",
+        "description": "A glowing potion that restores a lot of health.",
+        "price": 150,
+        "shops": ["Harrowdeep", "Frostmere Outpost"],
+        "heal": 100
+    },
+
+    "Wolf Pelt": {
+        "type": "material",
+        "description": "A wolf's fur. Merchants will buy it.",
+        "price": 8,
+        "shops": []
+    },
+    "Boar Hide": {
+        "type": "material",
+        "description": "Tough hide from a Thornback Boar.",
+        "price": 10,
+        "shops": []
+    },
+    "Sentinel Core": {
+        "type": "material",
+        "description": "A faintly glowing stone that kept the Rusted Sentinel moving.",
+        "price": 40,
+        "shops": []
+    },
+    "Fen Moss": {
+        "type": "material",
+        "description": "Damp green moss that herbalists use in potions.",
+        "price": 12,
+        "shops": []
+    },
+    "Torn Page": {
+        "type": "material",
+        "description": "A page torn from a living spellbook. The words still move.",
+        "price": 15,
+        "shops": []
+    },
+    "Star Shard": {
+        "type": "material",
+        "description": "A sliver of fallen star that is warm to the touch.",
+        "price": 80,
+        "shops": []
+    },
+    "Grave Dust": {
+        "type": "material",
+        "description": "Fine gray dust from the old battlefields.",
+        "price": 20,
+        "shops": []
+    },
+    "Hound Fang": {
+        "type": "material",
+        "description": "A long black fang from a Moor Hound.",
+        "price": 18,
+        "shops": []
+    },
+    "Harpy Feather": {
+        "type": "material",
+        "description": "A stiff feather from a Ridge Harpy.",
+        "price": 22,
+        "shops": []
+    },
+    "Troll Hide": {
+        "type": "material",
+        "description": "A thick slab of troll skin. It smells terrible.",
+        "price": 30,
+        "shops": []
+    },
+    "Wyvern Scale": {
+        "type": "material",
+        "description": "A scale as hard as steel from the Ridge Wyvern.",
+        "price": 120,
+        "shops": []
+    },
+    "Frost Crystal": {
+        "type": "material",
+        "description": "A crystal of ice that never melts.",
+        "price": 40,
+        "shops": []
+    },
+    "Demon Horn": {
+        "type": "material",
+        "description": "A curved black horn from a Demon Sentry.",
+        "price": 60,
+        "shops": []
+    },
+    "Ash Ember": {
+        "type": "material",
+        "description": "A coal from Nocthollow that still glows after it has gone cold.",
+        "price": 55,
+        "shops": []
+    }
+}
